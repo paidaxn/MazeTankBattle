@@ -1,0 +1,357 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#app,
+.wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, "microsoft yahei", arial, STHeiTi,
+    sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.wapper {
+  width: 100%;
+}
+
+.crumbs {
+  height: 40px;
+  line-height: 40px;
+}
+
+.pagination {
+  margin: 20px 0;
+  text-align: right;
+}
+
+.plugins-tips {
+  padding: 20px 10px;
+  margin-bottom: 20px;
+}
+
+.el-button+.el-tooltip {
+  margin-left: 10px;
+}
+
+.el-table tr:hover {
+  background: #f6faff;
+}
+
+.mgb20 {
+  margin-bottom: 20px;
+}
+
+.move-enter-active,
+.move-leave-active {
+  transition: opacity 0.5s;
+}
+
+.move-enter,
+.move-leave {
+  opacity: 0;
+}
+
+/*BaseForm*/
+
+.form-box {
+  width: 600px;
+}
+
+.form-box .line {
+  text-align: center;
+}
+
+.el-time-panel__content::after,
+.el-time-panel__content::before {
+  margin-top: -7px;
+}
+
+/*Readme*/
+
+.ms-doc .el-checkbox__input.is-disabled+.el-checkbox__label {
+  color: #333;
+  cursor: pointer;
+}
+
+/*Upload*/
+
+.pure-button {
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.g-core-image-corp-container .info-aside {
+  height: 45px;
+}
+
+.el-upload--text {
+  background-color: #fff;
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  box-sizing: border-box;
+  width: 360px;
+  height: 180px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.el-upload--text .el-icon-upload {
+  font-size: 67px;
+  color: #97a8be;
+  margin: 40px 0 16px;
+  line-height: 50px;
+}
+
+.el-upload--text {
+  color: #97a8be;
+  font-size: 14px;
+  text-align: center;
+}
+
+.el-upload--text em {
+  font-style: normal;
+}
+
+
+
+.editor-btn {
+  margin-top: 20px;
+}
+
+.btn-add-mes {
+  float: right;
+}
+
+.el-table td,
+.el-table th.is-leaf {
+  text-align: center;
+}
+
+.el-table__body-wrapper {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+/*表单*/
+
+.handle-box {
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+.el-dialog__header {
+  text-align: center;
+}
+
+.handle-select {
+  width: 120px;
+}
+
+.table .handle-input {
+  width: 150px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.table .el-dialog .el-input {
+  width: 200px;
+}
+
+/*.table .el-input__inner {*/
+/*height: 32px;*/
+/*}*/
+
+.table .el-button.is-round {
+  padding: 10px 22px;
+}
+
+.table .el-select {
+  margin-right: 10px;
+}
+
+// .table .el-form-item {
+//   margin-bottom: 10px;
+// }
+
+/* .el-form-item__label {
+    width: 100px;
+} */
+
+.objectedit .footer {
+  margin-top: 30px;
+  box-sizing: border-box;
+  padding-left: 158px;
+  display: block;
+}
+
+.table .el-button.is-round {
+  margin-left: 6px;
+}
+
+.objectedit .el-date-editor {
+  width: 174px;
+}
+
+.dav-title {
+  border-bottom: 1px solid #666;
+  padding-bottom: 10px;
+  height: 32px;
+  line-height: 32px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.dav-title div {
+  float: left;
+  height: 32px;
+}
+
+.dav-title button {
+  float: right;
+}
+
+hr {
+  margin-bottom: 20px;
+}
+
+.el-tabs__new-tab {
+  background: #66b1ff;
+  color: #fff;
+}
+
+.g-core-image-upload-form {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.el-breadcrumb {
+  line-height: 32px;
+}
+
+.tips span {
+  color: red;
+  margin-left: 10px;
+}
+
+.tips {
+  color: #666;
+}
+
+body .el-table th.gutter {
+  display: table-cell !important;
+}
+
+.width630 {
+  width: 100%;
+  float: left;
+}
+
+.tipsLeft {
+  float: left;
+}
+
+// 2020-5-13 新增样式
+// 标题样式
+.tip {
+  padding: 8px 16px;
+  background-color: #ecf8ff;
+  border-radius: 4px;
+  border-left: 5px solid #50bfff;
+  margin: 20px 0;
+}
+
+.tip1 {
+  padding: 8px 16px;
+  background-color: #fdf6ec;
+  border-radius: 4px;
+  border-left: 5px solid #faecd8;
+  margin: 20px 0;
+}
+
+// 表头样式
+.table-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 10px 0 10px;
+}
+
+/*vue-quill-editor*/
+.ql-container {
+  min-height: 400px;
+}
+
+.ql-toolbar.ql-snow {
+  line-height: normal;
+}
+
+// .ql-snow .ql-tooltip {
+//   transform: translateX(117.5px) translateY(10px) !important;
+// }
+
+// 图片上传控件默认样式
+.bgImg {
+  // width: 100px;
+  // height: 100px;
+  vertical-align: text-top;
+  display: inline-block;
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-block: auto;
+  }
+
+  .vertical {
+    height: 100%;
+    width: auto;
+  }
+
+  .el-icon-plus {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+  }
+
+  .upimg-btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.el-tooltip__popper {
+  max-width: 15%;
+}
+
+.el-icon-circle-close {
+  color: #ffffff;
+}

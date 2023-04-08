@@ -1,0 +1,140 @@
+.formBox /deep/ .el-input__inner {
+  height: 34px;
+}
+.title-notice {
+  color: #f0325f;
+}
+.table-title {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 16px;
+  background: #ecf8ff;
+  border-radius: 4px;
+  border-left: 5px solid #50bfff;
+}
+.crumbs {
+  height: 40px;
+  line-height: 40px;
+}
+.title-01 {
+  margin-right: 100px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 16px;
+  background: #ecf8ff;
+  border-radius: 4px;
+  border-left: 5px solid #50bfff;
+  margin-bottom: 10px;
+}
+.bgImg {
+  width: 200px;
+  height: 100px;
+  vertical-align: text-top;
+  display: inline-block;
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+.slot {
+  text-align: center;
+  line-height: 40px;
+}
+.slot i {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 24px;
+  line-height: 40px;
+}
+.flex {
+  display: flex;
+}
+.flex-space {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-mc-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-main-center {
+  display: flex;
+  justify-content: center;
+}
+.flex-cross-center {
+  display: flex;
+  align-items: center;
+}
+.flex-direction-column {
+  display: flex;
+  flex-direction: column;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.ml-20 {
+  margin-left: 20px;
+}
+.mr-20 {
+  margin-right: 20px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.popStyle {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+  -webkit-overflow-scrolling: touch;
+}
+.popStyle::-webkit-scrollbar {
+  display: none;
+  width: 0 !important;
+}
+@keyframes showPopAnimation {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes hidePopAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+.baseShowPop {
+  width: 100%;
+  height: 100%;
+  animation: showPopAnimation 0.5s;
+}
+.baseHidePop {
+  width: 100%;
+  height: 100%;
+  animation: hidePopAnimation 0.5s;
+}
+/*在Chrome下移除input[number]的上下箭头*/
+.no-number::-webkit-outer-spin-button,
+.no-number::-webkit-inner-spin-button {
+  margin: 0;
+  -webkit-appearance: none !important;
+}
+.no-number input[type='number']::-webkit-outer-spin-button,
+.no-number input[type='number']::-webkit-inner-spin-button {
+  margin: 0;
+  -webkit-appearance: none !important;
+}
+/*在firefox下移除input[number]的上下箭头*/
+.no-number {
+  -moz-appearance: textfield;
+}
+.no-number input[type='number'] {
+  -moz-appearance: textfield;
+}
